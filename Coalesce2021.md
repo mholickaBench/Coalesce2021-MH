@@ -139,3 +139,28 @@ Repo :https://github.com/dbt-labs/dbt-project-maturity
 very neat concept. Operationalizing it will be difficult and time consuming. It has some nice items in it, but I am not sure about the time investment that would be needed. 
 
 --- 
+
+## Batch to Streaming in One Easy Step - Emily Hawkins & Arjun Narayan
+
+    - https://materialize.com/introducing-dbt-materialize/
+    - marketing pitch.  Quite good, but very challenging to implement, and needs a culture surrounding the streaming architecture.. Additionally, not very mature ( seems like a startup). Forces the upkeep of 2 DWH and 2 DBT projects. seems like a bit of pipedream 
+
+- batch : reads data, calculates, then spits out results
+- streaming : new data comes in and gets new results. 
+- realtime data > not realtime data 
+
+![Use cases](2021-12-07-11-37-20.png)
+
+- streaming does not support SQL and that is why it is not used as much.
+
+
+![](2021-12-07-11-47-33.png)
+
+![24-hour ](2021-12-07-11-50-33.png)
+
+- down to 30 mins instead of 24 hours on cart abandonment 
+
+![cart abandonment - streaming](2021-12-07-11-52-05.png)
+
+![Data Architecture](2021-12-07-11-54-59.png)
+
