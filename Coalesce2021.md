@@ -6,6 +6,7 @@
 
 ### Items to investigate 
     -  Metadata API  
+    - https://docs.getdbt.com/docs/dbt-cloud/dbt-cloud-api/metadata/metadata-overview 
 
 - a number of distince stages
 - maturity :
@@ -164,3 +165,21 @@ very neat concept. Operationalizing it will be difficult and time consuming. It 
 
 ![Data Architecture](2021-12-07-11-54-59.png)
 
+---
+
+## Observability Within dbt -  Kevin Chan & Jonathan Talmi
+
+    - basically, use dbt cloud. if you can't, use `dbt artifacts` and make your own observability. We use dbt cloud, all good . 
+    - https://docs.getdbt.com/docs/dbt-cloud/dbt-cloud-api/metadata/metadata-overview 
+
+- observatlity is key to minimizing data downtime 
+- when you can't answer questions about your models, you are probably not observing enough
+- Data sources
+    - manifest 
+    - run results [artifacts] - detailed node and pipeline execution data 
+    - query history
+- combining dbt artifacts and query history led to more data insights
+![](2021-12-07-12-41-36.png)
+
+- model metrics like this are quite neat
+![](2021-12-07-12-50-06.png)
