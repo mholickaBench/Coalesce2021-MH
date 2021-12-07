@@ -112,4 +112,30 @@ Repo :https://github.com/dbt-labs/dbt-project-maturity
 
 ## Operationalizing Column-Name Contracts with dbtplyr - Emily Riederer 
 
+    more detail : https://emilyriederer.netlify.app/post/convo-dbt/
+
+- each step in the pipeline relies on human input [ with some amount of expectations for them . ]
+- column names are contracts [ persists throughout the stack]
+    - Interfaces ,configs, code = > dev:user, dev:dev,dev:machine 
+
+![](2021-12-07-10-38-39.png)
+
+- interfaces : universal symbols [ save button] / grouping [ arrow keys] / aesthetics [ submit in green / cancel in red ]
+
+![](2021-12-07-10-43-23.png)
+
+- changing the names on the variables might help to better understand the data [`LOGIN` vs `BIN_LOGIN` where `BIN` : `BINARY- NULL `]
+
+![](2021-12-07-10-47-07.png)
+
+- standardization allows for a shared understanding between data analysts and engineers
+- `change once, update everywhere`
+
+![](2021-12-07-10-51-33.png)
+
+![](2021-12-07-10-55-51.png)
+
+
+very neat concept. Operationalizing it will be difficult and time consuming. It has some nice items in it, but I am not sure about the time investment that would be needed. 
+
 --- 
