@@ -183,3 +183,19 @@ very neat concept. Operationalizing it will be difficult and time consuming. It 
 
 - model metrics like this are quite neat
 ![](2021-12-07-12-50-06.png)
+
+---
+## The Endpoints are the Beginning: Using the dbt Cloud API to build a culture of data awareness - Kevin Hu - Metaplane
+
+    - DBT will be putting more effort into the API 
+    - Sample code to use this 
+        - https://github.com/metaplane/dbt-coalesce-2021-codebase 
+
+- EDT : Executive - driven testing 
+    - poor decision making by stakeholders
+    - 3 subquestions [ what is wrong / what is impact/how can I fix it ?]
+        - typically, we can't make our own informed decisions.
+- cloud API  [ monitoring + administration]
+- metadata [ graphQL API for the metadata( sources, nodes, seeds, etc.)]
+
+- very interesting talk. might be worth looking at the github above. Very neat, implementing would be very challenging and time consuming.
